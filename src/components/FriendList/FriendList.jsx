@@ -1,7 +1,8 @@
 import { FriendItem } from './FriendItem';
+import { List } from 'components/FriendList/FriendList.styled';
 export const FriendList = ({ friends }) => {
   return (
-    <ul className="friend-list">
+    <List>
       {friends.map(friend => (
         <FriendItem
           key={friend.id}
@@ -10,6 +11,6 @@ export const FriendList = ({ friends }) => {
           isOnline={friend.isOnline}
         />
       ))}
-    </ul>
+    </List>
   );
 };
