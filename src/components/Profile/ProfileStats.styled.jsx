@@ -21,11 +21,11 @@ export const ProfileStatsItem = styled.li`
   align-items: center;
   justify-content: center;
 `;
-export const ProfileStatsLabel = styled.li`
+export const ProfileStatsLabel = styled.span`
   display: block;
   text-align: center;
 `;
-export const ProfileStatsQuantity = styled.li`
+export const ProfileStatsQuantity = styled.span`
   display: block;
   text-align: center;
 `;

@@ -1,14 +1,18 @@
 import PropTypes from 'prop-types';
 import {
   FriendListItem,
-  ListStatus,
+  ListStatusOn,
+  ListStatusOff,
   Avatar,
   Name,
 } from 'components/FriendList/FriendItem.styled';
 export const FriendItem = ({ avatar, name, isOnline }) => {
   return (
     <FriendListItem>
-      <ListStatus>{isOnline}</ListStatus>
+      {isOnline ? (
+        <ListStatusOn>{isOnline}</ListStatusOn>
+      ) : (
+        <ListStatusOff>{isOnline}</ListStatusOff>)}
       <Avatar src={avatar} alt="User avatar" width="48" height="48" />
       <Name>{name}</Name>
     </FriendListItem>

@@ -8,7 +8,7 @@ export const ProfileDiscr = styled.div`
   margin-right: auto;
   margin-left: auto;
   font-size: 26px;
-  width: 40%;
+  width: 540px;
   display: flex;
   flex-direction: column;
 

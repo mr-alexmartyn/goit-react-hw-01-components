@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 
+
 export const StatisticsWrapper = styled.section`
   margin-top: 40px;
   margin-right: auto;
@@ -7,7 +8,7 @@ export const StatisticsWrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  width: 540px;
   background-color: #f2f0ed;
   border: solid #802222;
   border-radius: 10px;
