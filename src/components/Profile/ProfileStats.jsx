@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import {
   ProfileStats,
   ProfileStatsItem,
@@ -21,3 +22,10 @@ export const Stats = ({ followers, views, likes }) => (
     </ProfileStatsItem>
   </ProfileStats>
 );
+
+
+Stats.propTypes = {
+  followers: PropTypes.number.isRequired,
+  views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
+};
